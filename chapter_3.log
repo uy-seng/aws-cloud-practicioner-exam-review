@@ -1,0 +1,26 @@
+aws support plan
+    basic (free)
+    developer (starts at 29$)
+    business (starts at 100$)
+    enterprise (starts at $15,000)
+
+    non-free plans are billed as a percentage of monthly resource usage.
+
+hgher plans, more support:
+    the more you pay, the more personalzied and responsive support get, especially for troubleshooting and planning
+
+developer support 
+    best for org that are still testing and planning deployments
+
+business support
+    suitable for smaller ops with light prod needs
+
+enterprise support:
+    ideal for large scale ops that cant afford downtime
+
+aws documentaiton:
+    aws provides regularly updated documentation across multiple platforms including user guides, the knowledge center and discussion forums
+
+aws trusted advisor:
+    alert users about best practices and compliance. basic and developer plans get limited alerts while business and enterprise plans get 
+    full access

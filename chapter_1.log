@@ -1,0 +1,24 @@
+aws advantages
+    customer benefit from better security
+                                 availability
+                                 reliability
+    than they could provide on their own
+
+shared responsibility
+    aws manager the physical infrastructure
+    customer manage their own application
+
+pay-as-you-go:
+    you ony pay for the services you use, helping to reduce the upfront costs (capital expense)
+    but you still need to manage the ongoing operating expenses.
+
+server virtualization
+    it allows more efficient use of hardware, lowering costs
+    speeding up deployment of software
+
+serverless computing
+    customers only focus on their code and how it interact with the cloud without worrying about serverless
+
+cloud optimization
+    applications can scale and adjust resources easily to meet demand
+

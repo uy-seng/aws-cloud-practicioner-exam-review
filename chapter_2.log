@@ -1,0 +1,18 @@
+free tier:
+    aws account can get a year of free access to basic configuration of most services to explore and learn
+
+tracking free tier usage: 
+    you can monitor your usage at the billing dashboard to avoid going over the free limits
+
+pricing info:
+    add /pricing to any aws service url to see the service details e.g. aws.amazon.com/s3/pricing
+
+aws pricing calculator:
+    help estimate real-world costs for aws service based on per your anticipated usage
+
+service limit:
+    request may be denied if they exceed your account's service limits.
+
+aws billing dashboard:
+    the central place for managing payments, monitoring costs, and handling account administration.
+    

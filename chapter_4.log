@@ -1,0 +1,32 @@
+aws region
+    a region is made up of at least two availability zone within a geographical area offering low latency and secure environments
+
+availability zone: a group of independent, fault-protected data centers within the region.
+
+region selection:
+    make sure you are aware of selected region in aws management consile, as operations are region-specific
+
+global structures 
+    aws region are design to optimize user experience and meet security and regulatory needs
+
+global resouces
+    some services (IAM, CloudFront, S3) are not limited to one region and are globally accessible
+
+service endpoints
+    aws services are accesible via endpoint addresses that include the region destination
+
+ec2 instances
+    virtual machines are assigned ip addresses from subnet tied to a specific availbaility zone.
+
+high availabilty: 
+    you can increase reliability by deploying redundant instances in multiple availability zone
+
+edge location:
+    aws has global data servers that store cached data (via cloudfront) for faster access by end users.
+
+aws outpost, localzones and wavelength:
+    these services extend aws infra to on-premises environment bring services closer to specific geogrpahic approaches
+    and enable low latency 5g Applications
+
+shared responsbility mode:
+    defines what parts of aws platform you are responsible for securing vs what amazon manages.
