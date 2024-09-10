@@ -1,0 +1,18 @@
+vpc (virtual private cloud)
+    provides the network infrastructure for aws services especially ec2. vpc can connect to:
+        the internet via an internet gateway
+        extend private network through direct connect or vpn
+        other vpc using vpc peering
+
+route 53:
+    aws domain name system service with two function:
+        act as a domain registrar where you can register or transfer top-level domain names 
+    
+        provide dns hosting services:
+            public hosted zone for public domains
+
+            private hosted zone for name resolution within vpc.
+
+cloudfront:
+    amazon cdn that speed up delivery to user by storing content in edge locations worldwide, serving it from the closest location
+    for better performance.
