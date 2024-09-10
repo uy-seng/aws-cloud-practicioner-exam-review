@@ -1,0 +1,23 @@
+ec2 setup
+    configuring ec2 instances is similar to setting up traditional pn-remises servers. key choices include amis (machine image),
+    instance tyes, storage and pricing models.
+
+ami (amazon machine image)
+    four categories, quick start, my ami (custom), aws marketplace, and community. you can also create your own ami from an
+    ebs snapshot.
+
+ec2 instance types:
+    different types are desinged for specific application needs, with various sizes to optimize performance.
+
+ebs storage volumes:
+    like physical hard drives, flexible and ce be encrypted, instance store volumes offer faster performance but are 
+    tied to physical server
+
+ec2 pricing models:
+    on-demand: good for short-term tasks that cant be interrupted.
+    reserved instances: best for long-term work load and cheaper over time
+    spot instances: ideal for data operations can can handle unexpected shutdowns and interruptions
+
+abstracted computer services:
+    tools like lightsial, elastic beanstalk, ecs, eks and lambda simplify and automate compute tasks while reducing costs.
+

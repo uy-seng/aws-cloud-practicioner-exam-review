@@ -1,0 +1,21 @@
+s3 (simple storage service):
+    primary storage service in aws, integrated with most aws services, especially s3 glacier, ec2 and lambda
+
+durable cliud storage:
+    s3 offer reliable high avilable storage. you can control file access with bucket policies making files public or private.
+
+s3 glacier:
+    ideal for long-term stroage of infrequently accessed data at a lower cost.
+
+aws storage gateway:
+    allow access to s3 data thrpoguh vm that syncs data with s3, useful for local storage needs.
+
+data transfer to/from s3:
+    typically done over the internet, vpn or direct connected
+    for large amount of data, hardware solutions like snowball are more practical
+
+snowball
+    a rugged device aws sends to you. you load your data into it, return it and aws transfers the data to s3.
+
+snowball edege:
+    similar to snowball but also workks as local file server and can run ec2 instances or lambda function locally.
