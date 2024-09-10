@@ -1,0 +1,18 @@
+aws flexibility:
+    you can use aws to build or run any app you would normally run in a traditional data center but it is important to use aws
+    differently to get the most benefit.
+
+shared responsibility model:
+    you and aws share responsibilities for managing your application with different parts failing on each.
+
+well-architected framework
+    aws has five pillars that help you evaluate your responsibilities and trade-offs in your app design decision.
+
+example of static website:
+    using s3:
+        aws handle reliability, security, performance, performance and scaling during high traffic
+    using ec2:
+        you are responsile for reliability, security, perforamnce and scaling so you would need to ensure enough instancees are
+        available to handle traffic spike.
+
+key decision: choose the right aws resource based on how much responsibilit you want to manage yourself.

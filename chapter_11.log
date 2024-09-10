@@ -1,0 +1,27 @@
+automation in aws:
+    aws offers many ways to automate tasks, with the choice of service depending on your architecture.
+
+automation as code:
+    tasks are automated by writing code that the system runs.
+
+    imperative approach
+        specifies exact steps to perform a task, like bash or powershell scripts. examples include aws system amanger, codebuild
+        codedeploy and ec2 auto-scaling userdata scripts
+
+    declarative approach: 
+        specifies the desired outcome, and the service figures out the steps to achieve it. examples include cloudformation, opsworks
+        for puppet and chef, and opsworks stacks.
+
+
+imperative vs declarative
+    they are ot opposite, declarative approach hides the step-by-step details, focusing on result.
+    while the iperative appoarch spells out the specific step
+
+config management   
+    focuses on ensuring configuration consistency and compliance.
+
+    declarative platform:
+        puppet and chef focus on maintaining a desired state using declarative language.
+
+    imperative pplatform:
+        aws system amanger also provides configuration management but uses an imperative approach.
