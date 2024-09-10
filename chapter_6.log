@@ -1,0 +1,12 @@
+aws management console
+    initially you'll use the console for the most tasks. aws often informs you of changes and may even let your preview new features
+
+aws cli
+    as you get more comfortable with aws, you'll start using the cli for tasks like scripting and gathering information in bulk
+
+cloudwatch:
+    aws services, collects metrics and let you create alarm when certain threshold are corssed. it also stores logs from both aws and non-aws services and can extract metrics from logs.
+
+cloudtrail:
+    log events in your aws account with default history of 90 days for management events. to log more or customize, you can create a trail that stores events in an s3 bucket or streams
+    them into cloudwatch log for viewing and searching.
