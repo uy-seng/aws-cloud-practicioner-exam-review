@@ -1,0 +1,25 @@
+relational vs non relational db:
+    if you are migrating an existing app, it likely uses a sql databases, you can choose between rds or setting up your own sql server in ec2.
+
+new app development:
+    deciding between relational and nonrelational databases isnt always easy. each has pros and cons`
+
+relational db:
+    designed for complex and varied queries
+    requires structure data (organized in tables)
+    great for reporting and analysis
+    offer query flexibility, allowing searches on any attribute or range
+
+nonrelational db:
+    designed for fewer, well-defined queries
+    can store structured or unstructured data
+    ideal for highly transactional applications (handling many read/writes)
+    less query flexibility compared to relational databases
+
+scaling:
+    nonrelational db:
+        scale horizontally by spreading data accross partition supporting thousands of read/write per seconds
+
+    relational db:
+        can scale vertically for read (via read replicas) but for higher write rates , they need to scale vertically by upgrading to more powerful instances. only one instance can write
+        to the database
