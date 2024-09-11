@@ -149,12 +149,17 @@ B. The user interface is too difficult to use.
 C. Not replacing a misconfigured resource that the application depends on.
 D. Provisioning too many instances.
 
+Answer: C. the reliability of an applicaation can be impacted by the failure of resources the application depends on.
+
 17. You have a public web application running on EC2 instances. Which of the following factors
 affecting the performance of your application might be out of your control?
 A. Storage
 B. Compute
 C. Network
 D. Database
+
+Answer: C. you may have contrl over vpc, but the rest of your network between your application and users on internet are not
+under your control
 
 18. An Auto Scaling group can use an EC2 system health check to determine whether an instance
 is healthy. What other type of health check can it use?
@@ -163,6 +168,8 @@ B. SNS
 C. VPC
 D. ELB
 
+Answer:  D. an auto scaling group can use elb health check to determine whether an instance is healthy.
+
 19. You’re hosting a static website on S3. Your web assets are stored under the STANDARD
 storage class. Which of the following is true regarding your site?
 A. Someone may modify the content of your site without authorization.
@@ -170,9 +177,13 @@ B. You’re responsible for S3 charges.
 C. You’re charged for any compute power used to host the site.
 D. An availability zone outage may bring down the site.
 
+Answer: B. you are responsible for s3 charges related to your static sties. 
+
 20. You’re hosting a static website on S3. Your web assets are stored in the US East 1 Region in
 the bucket named mygreatwebsite. What is the URL of the website?
 A. http://mygreatwebsite.s3-website-us-east-1.amazonaws.com
 B. http://mygreatwebsite.s3.amazonaws.com
 C. http://mygreatwebsite.s3-website-us-east.amazonaws.com
 D. http://mygreatwebsite.s3-us-east-1.amazonaws.com
+
+Answer: 
